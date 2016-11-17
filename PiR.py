@@ -6,7 +6,7 @@ import time
 import socket
 import sys
  
-HOST = "192.168.1.18"
+HOST = "10.10.1.1"
 PORT = 12345
  
 #-------------[ CABLAGE ]--------------------
