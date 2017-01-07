@@ -6,15 +6,15 @@ import subprocess
 from time import sleep
 
 #-------------[ CABLAGE ]--------------------
-# Switch connecté entre GPIO 17 (pin 11) et GND
-SWITCH = 11
+# Switch connecté entre GPIO 26 (pin 37) et GND
+SWITCH = 37
 
-# LED connectée entre GPIO 18 (pin 12) et GND
-LED = 12
+# LED connectée entre GPIO 5 (pin 29) et GND
+LED = 29
 
 
 #-------------[ Initialisation ]--------------
-GPIO.setmode(GPIO.BOARD) # on met RPi.GPIO en mode notation BCM
+GPIO.setmode(GPIO.BOARD) # on met RPi.GPIO en mode notation Physique
 GPIO.setwarnings(False) # disable warnings
 
 # on initialise le GPIO 17 en mode entrée
